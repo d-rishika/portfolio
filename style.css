@@ -225,6 +225,7 @@ p{
     padding: 15px;
     width:250px;
     color:white;
+    border-radius:25px;
     text-decoration: none;
     text-align: center;
 }
