@@ -8,8 +8,6 @@ html{
     scroll-behavior: smooth;
 }
 body{
-    /* background-color:black; */
-    /* color:white; */
     background-color: #0f0f0f;
     color:#f0f0f0;
 }
@@ -43,7 +41,6 @@ nav ul li{
 }
 nav ul li a{
     text-decoration: none;
-    /* color:#ffff; */
     color:#f0f0f0;
     font-size: 22px;
     position:relative;
@@ -52,11 +49,9 @@ nav ul li a::after{
     content :'';
     width: 0;
     height:3px;
-    /* background: #ff004f; */
     background: #ff6f61;
     position: absolute;
     left: 0;
-    /* bottom: -6px; */
     bottom:-11px;
     transition:0.5s ;
 }
@@ -82,7 +77,6 @@ nav ul li a:hover::after{
 
 #about{
     padding:80px 0;
-    /* color:#ababab; */
     color:#cccccc;
 }
 .row{
@@ -103,7 +97,6 @@ nav ul li a:hover::after{
 .subtitle{
   font-size:60px;
   font-weight: 600px;
-  /* color:white; */
   color:#ffffff;
 }
 p{
@@ -124,7 +117,6 @@ p{
     content:'';
     width:0;
     height: 3px;
-    /* background: #ff004f; */
     background: #ff6f61;
     position: absolute;
     left: 0;
@@ -132,7 +124,6 @@ p{
     transition:0.5s;
 }
 .tablinks.activelink::after{
-    /* width: 50%; */
     width:100%;
     background: #ff6f61;
 }
@@ -142,7 +133,6 @@ p{
   font-size: 18px;
 }
 .tabcontents ul li span{
-    /* color: #e6dc1a; */
     color:#ffd700;
     font-size: 19px;
 }
@@ -164,7 +154,6 @@ p{
     margin-top: 50px;
 }
 .serviceslist div{
-    /* background: rgb(53, 52, 52); */
     background: #1c1c1e;
     color:#f0f0f0;
     padding: 40px;
@@ -189,14 +178,12 @@ p{
 }
 .serviceslist div a{
     text-decoration: none;
-    /* color:#fff; */
     color:wheat;
     font-size: 17px;
     margin-top: 20px;
     display: inline-block;
 }
 .serviceslist div:hover{
-  /* background: #e01b59; */
   background: #ff6f61;
   transform: translateY(-10px);
 }
@@ -211,7 +198,6 @@ p{
     margin-top:30px;
 }
 .contactleft p i{
-    /* color:red; */
     color:#ff6f61;
     margin-right:15px;
     font-size: 26px;
@@ -223,14 +209,12 @@ p{
     text-decoration: none;
     font-size: 30px;
     margin-right: 15px;
-    /* color:#ababab; */
     color:#cccccc;
     display: inline-block;
     transform: translate 0.5s;
     /* transition: transform 0.5s; */
 }
 .icons a:hover{
-    /* color:red; */
     color:#ff6f61;
     transform: translateY(-5px);
 }
@@ -256,8 +240,6 @@ form input, form textarea{
     margin: 15px 0;
     font-size: 18px;
     border-radius: 6px;
-    /* background: #262626; */
-    /* color:whitesmoke; */
     background: #1c1c1e;
     color:#f0f0f0;
 }
@@ -265,8 +247,6 @@ form button{
   padding: 14px 60px;
   font-size: 18px;
   margin-top: 20px;
-  /* background-color:#ff004f; */
-  /* color:white; */
   background-color: #ff6f61;
   color:#ffffff;
   border-radius: 8px;
@@ -276,7 +256,6 @@ form button{
     width:100%;
     text-align: center;
     padding:25px 0;
-    /* background:rgb(80, 76, 76); */
     background-color: #1a1a1a;
     color:#cccccc;
     font-weight: 300;
