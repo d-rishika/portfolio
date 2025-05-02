@@ -1,4 +1,3 @@
-<script>
         var tablinks = document.getElementsByClassName("tablinks");
         var tabcontents = document.getElementsByClassName("tabcontents");
 
@@ -12,4 +11,3 @@
            event.currentTarget.classList.add("activelink");
            document.getElementById(tabname).classList.add("activetab")
         }
-</script>
