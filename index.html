@@ -8,31 +8,24 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
 </head>
 <body>
-    <div id="header">
+    <header id="header">
       <div class="container">
         <nav>
             <h1 class="headtitle">Danturi Rishika.</h1>
-            <ul id="sidemenu">
-                <li><a href="#header">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#services">Services</a></li>
-                <li><a href="#contact">Contact</a></li>
-                <i class="bi bi-x" onclick="closemenu()"></i>
-            </ul>
-            <i class="bi bi-list" onclick="openmenu()"></i>
+            <a href="images/Rishika Danturi(UI-Developer).pdf" alt="Rishika portfolio image" class="btn btn2" download>Download Resume</a>
         </nav>
         <div class="header-text">
             <p>Web Developer</p>
             <h1>Hii, I'm <span>Danturi Rishika</span><br>from Hyderabad </h1>
         </div>
       </div>
-    </div>
+    </header>
 
 <!-- ABOUT SECTION -->
 
-    <div id="about">
+    <section id="about">
         <div class="container">
-         <div class="row">
+          <div class="row">
             <div class="aboutcol-1">
              <img src="/public/images/img 1.jpg" alt="Profile Image">
             </div>
@@ -42,121 +35,69 @@
                 Hi! I’m a recent graduate with a passion for web development. I love learning new things, solving problems, and turning ideas into something real. 
              </p>
              <div class="tabtitles">
-                <p class="tablinks activelink" onclick="opentab('skills')">Skills</p>
-                <p class="tablinks" onclick="opentab('experince')">Experience</p>
+                <p class="tablinks activelink" onclick="opentab('skills',event)">Skills</p>
+                <p class="tablinks" onclick="opentab('experience')">Experience</p>
                 <p class="tablinks" onclick="opentab('education')">Education</p>
              </div>
 
              <div class="tabcontents activetab" id="skills">
                 <ul>
-                    <li><span>UI/UX</span><br>Desiging web/App interfaces</li>
-                    <li><span>Web Developement</span><br>Building websites with HTML,CSS,Javascript</li>
-                    <li><span>App Developement</span><br>Building Andriod/ios apps</li>
+                    <li><span>Languages</span><br>HTML,CSS,JavaScript.</li>
+                    <li><span>Frontend Technologies</span><br>HTML,CSS,JavaScript,ReactJS</li>
+                    <li><span>Developer Tools</span><br>GitHub.</li>
                 </ul>
              </div>
-             <div class="tabcontents" id="experince">
+             <div class="tabcontents" id="experience">
                 <ul>
                     <li><span>Fresher</span></li>
+                    <li><span>Built and deployed a personal portfolio website using HTML, CSS, and JavaScript</span></li>
                 </ul>
              </div>
              <div class="tabcontents" id="education">
                 <ul>
-                    <li><span>2018</span><br>SSC from Oxford High School</li>
-                    <li><span>2018-2020</span><br>Intermediate from Sujatha Junior College for Women</li>
-                    <li><span>2020 - 2023</span><br>Graduation from Stanley Degree and Pg College for Women</li>
+                    <li><span><strong>Graduation (2020 - 2023)</strong></span><br>Stanley Degree and PG College for Women.</li>
+                    <li><span><strong>Intermediate (2018 - 2020)</strong></span><br>Sujatha Junior College for Women.</li>
+                    <li><span><strong>SSC (2018)</strong></span><br>Oxford High School.</li>
                 </ul>
              </div>
             </div>
-         </div>
+          </div>
         </div> 
-     </div>
+    </section>
 
      <!-- services section -->
-    <div id="services">
+     <section id="services">
         <div class="container">
             <h1 class="subtitle">My Services</h1>
             <div class="serviceslist">
-                <div>
-                    <span class="bi bi-code-slash"></span>
-                    <h2>Web Development</h2>
-                    <p>I build responsive and modern websites using HTML, CSS, and JavaScript. From basic landing pages to multi-page websites, I focus on clean code and smooth user experiences.</p>
-                    <a href="https://en.wikipedia.org/wiki/Web_development">Learn More</a>
-                </div>
-                <div>
-                    <span class="bi bi-crop"></span>
-                    <h2>UI/UX Design</h2>
-                    <p>
-                        I create clean and intuitive interfaces focused on user experience.
-                    </p>
-                    <a href="https://en.wikipedia.org/wiki/User_experience_design">Learn More</a>
-                </div>
-                <div>
-                    <span class="bi bi-phone"></span>
-                    <h2>App Development</h2>
-                    <p>
-                        I design and develop mobile apps with smooth UI and performance.
-                    </p>
-                    <a href="https://www.google.com/search?sca_esv=595645066&rlz=1C1UEAD_enIN1068IN1068&q=app+development&spell=1&sa=X&ved=2ahUKEwiqhvjA0cODAxWfSmwGHZZgCzwQBSgAegQICRAC&biw=1536&bih=738&dpr=1.25">Learn More</a>
-                </div>
+                <ul>
+                    <li>Strong understanding of creating and maintaining web pages and components using HTML,CSS, and JavaScript.</li>
+                        <li>Proficient in React for building dynamic and responsive user interfaces.</li>
+                        <li>Familiar with RESTful API integration for dynamic data rendering.</li>
+                        <li>Understanding of responsive design principles to ensure web applications are mobile-friendly.</li>
+                        <li>Exposure to debugging and performance optimization techniques for improving web application efficiency.</li>
+                        <li>Eagerness to learn new technologies and frameworks to keep up with industry trends</li>
+                </ul>
             </div>
         </div>
-    </div>
+    </section> 
 
   <!-- Contact -->
 
-     <div id="contact">
+     <section id="contact">
         <div class="container">
          <div class="row">
-            <div class="contactleft">
+            <div class="contactdetails">
                 <h1 class="subtitle">Contact Me</h1>
-                <p><i class="bi bi-send"></i>contact@gmail.com</p>
-                <p><i class="bi bi-telephone-fill"></i> 9390942855</p>
-                <div class="icons">
-                    <a href="https://facebook.com"><i class="bi bi-facebook"></i></a>
-                    <a href=""><i class="bi bi-whatsapp"></i></a>
-                    <a href=""><i class="bi bi-instagram"></i></a>
-
-                </div>
-                <a href="/public/images/Rishika Danturi(UI-Developer).pdf" class="btn btn2" download>Download Cv</a>
-            </div>
-            <div class="contactright">
-                <form>
-                    <input type="text" name="Name" placeholder="Your Name" required>
-                    <input type="email" name="email" placeholder="enter your email" required>
-                    <textarea name="message" rows="6" placeholder="Your message"></textarea>
-                    <button type="submit">Submit</button>
-                </form>
+                <p><i class="bi bi-send"></i><a href="mailto:danturirishika@gmail.com">danturirishika@gmail.com</a></p>
+                <p><i class="bi bi-telephone-fill"></i><a href="tel:+919390942855"> 9390942855</a></p>
+                <p><i class="bi bi-linkedin"></i><a href="https://www.linkedin.com/in/danturi-rishika-80410a300/">https://www.linkedin.com/in/danturi-rishika-80410a300/</a></p>
             </div>
          </div>
         </div>
         <div class="copyright">
             <p>&copy; 2025 Danturi Rishika. All rights reserved.</p>
         </div>
-     </div>
-     <script>
-        var tablinks = document.getElementsByClassName("tablinks");
-        var tabcontents = document.getElementsByClassName("tabcontents");
-
-        function opentab(tabname){
-           for( links of tablinks){
-            links.classList.remove("activelink");
-           }
-           for( contents of tabcontents){
-            contents.classList.remove("activetab");
-           }
-           event.currentTarget.classList.add("activelink");
-           document.getElementById(tabname).classList.add("activetab")
-        }
-
-
-        var sidemenu = document.getElementById("sidemenu");
-
-        function openmenu(){
-           sidemenu.style.right = "0";
-        }
-        function closemenu(){
-            sidemenu.style.right = "-200px";
-        }
-     </script>
+    </section>
 </body>
 </html>
