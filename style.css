@@ -175,9 +175,9 @@ p{
     .btn.btn2{
         border-radius: 10px;
         margin-top: 20px;
-        padding: 13px;
-        font-size: 21px;
-        width:40%;
+        padding: 12px;
+        font-size: 12px;
+        width:22%;
         color:white;
     }
     .headtitle{
@@ -210,8 +210,8 @@ p{
         font-size: 16px;
     }
     .serviceslist ul li {
-        font-size: 20px;
-      }
+        font-size: 15px;
+    }
     .contactleft{
         flex-basis:100% ;
     }
