@@ -6,10 +6,12 @@
 }
 html{
     scroll-behavior: smooth;
+    overflow-x: hidden;
 }
 body{
     background-color: #0f0f0f;
     color:#f0f0f0;
+    overflow-x: hidden;
 }
 #header{
    width:100%;
@@ -31,6 +33,7 @@ nav{
 }
 .headtitle{
     font-size: 40px;
+    white-space: nowrap;
 }
 .header-text{
    margin-top:20%;
@@ -42,10 +45,22 @@ nav{
 .header-text h1 {
     font-size: 60px;
     margin-top: 20px;
-    color:#ff6f61;
+    color:white;
 }
 .header-text h1 span{
     color:#ff004f;
+}
+.btn.btn2{
+    /* display: inline-block; */
+    padding: 15px 20px;
+    background-color:#ff004f;
+    border-radius: 25px;
+    /* margin-top: 20px; */
+    font-size: 21px;
+    /* width:30%; */
+    color:white;
+    text-decoration: none;
+    text-align: center;
 }
 /* about */
 #about{
@@ -55,7 +70,7 @@ nav{
 .row{
    display: flex;
    justify-content: space-between;
-   flex-wrap: wrap;
+   /* flex-wrap: wrap; */
 }
 .aboutcol-1{
     flex-basis: 35%;
@@ -146,18 +161,7 @@ p{
     color:#ff6f61;
     transform: translateY(-5px);
 }
-.btn.btn2{
-    display: inline-block;
-    background-color:#ff004f;
-    border-radius: 10px;
-    margin-top: 20px;
-    padding: 13px;
-    font-size: 21px;
-    width:30%;
-    color:white;
-    text-decoration: none;
-    text-align: center;
-}
+
 .copyright{
     width:100%;
     text-align: center;
@@ -173,12 +177,15 @@ p{
 
 @media only screen and (max-width:700px) {
     .btn.btn2{
+        display: inline-block;
         border-radius: 10px;
-        margin-top: 20px;
-        padding: 12px;
+        margin-left:5px;
+        padding: 10px 20px;
         font-size: 12px;
-        width:22%;
-        color:white;
+        font-weight: bold;
+        text-align: center;
+        width:auto;
+        white-space: nowrap;
     }
     .headtitle{
         font-size: 24px;
@@ -203,14 +210,14 @@ p{
         font-size: 14px;
       }
     .tablinks{
-        font-size: 20px;
+        font-size: 16px;
         margin-right:20px;
     }
     .tabcontents ul li {
         font-size: 16px;
     }
     .serviceslist ul li {
-        font-size: 15px;
+        font-size: 18px;
     }
     .contactleft{
         flex-basis:100% ;
